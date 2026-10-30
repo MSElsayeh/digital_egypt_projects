@@ -1,0 +1,10 @@
+SSH Recommendations:
+1- Using SSH keys instead of passwords, to lessen the impact of phishing attacks on remote users and making it very hard to intercept the credentials (private key is stored locally).
+2- Rate limiting SSH requests to prevent bruteforce (if passwords are still used).
+3- Specify a few users with static IPs that can log in remotely and block the rest.
+
+Password Recommendations:
+1- Generate random variable length passwords for employees.
+2- Rotate passwords periodically.
+3- Automatically delete stale accounts which were not accessed in a long time.
+4- Educate employees on the importance of their password security (not sharing it for example).
